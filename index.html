@@ -3,47 +3,107 @@
     <head>
         <meta charset="utf-8">
         <title>Isaac.K Profile</title>
+        <link rel="stylesheet" media="screen" href="css/style.css">
     </head>
     <body>
-        <img src="picture/my_picture.png" alt="my_picture" width="300" height="300"/>
-        <h1>Isaac Kwok</h1>
-        <p>Github - <a href="https://github.com/IsaacKwok4Code">my_Github</a></p>
-        <p>Web Developer</p>
-        <p>Working with Spring boot application and Angular web application.</p>
-        <hr />
-        <h3>normal table</h3>
-        <table border="2" bgcolor="#efefef">
-            <tr>
-                <th>Dates</th>
-                <th>Works</th>
-            </tr>
-            <tr>
-                <td>10-2017</td>
-                <td>Junior Developer</td>
-            </tr>
-            <tr>
-                <td>4-2020</td>
-                <td>Developer</td>
-            </tr>
-        </table>
-        <hr />
-        <h3>Teching and Watching</h3>
-        <ul>
-            <li>Web development</li>
-            <li>Udemy</li>
-            <li>Pluralsight</li>
-        </ul>
-        <hr />
-        <h3>My Hobbies</h3>
-        <ol>
-            <li>Online gaming</li>
-            <li>Programming</li>
-            <li>Fitness center</li>
-        </ol>
-        <hr />
-        <h3>Contact</h3>
-        <ul>
-            <li>Isaac4learn@gmail.com</li>
-        </ul>
+        <section class="intro" id="my_profile-intro">
+            <header role="banner">
+                <h1>Isaac K Profile</h1>
+                <h2>The Intro of <abbr title="Programmer">Developer</abbr> Profile</h2>
+            </header>
+
+            <div class="summary" id="my_profile-summary" role="article">
+                <p>This is a page about a Developer called Isaac K from <abbr title="A city of freedom">Hong Kong</abbr> and living in <abbr title="state of America">NC state</abbr>.</p>
+                <p>Github - <a href="https://github.com/IsaacKwok4Code">my_Github</a></p>
+            </div>
+
+            <div class="preamble" id="my_profile-preamble" role="article">
+                <h3>The Road to Developer</h3>
+                <p>Start my programming road when i move to USA.</p>
+                <p>Enjoy building something on the web and share information to public.</p>
+                <p>Become a creative person using internet.</p>
+                <p>Feeling amazing in the change of technology.</p>
+            </div>
+        </section>
+
+        <div class="main_container" id="my_profile-container" role="main">
+            <div class="workingAndLearning" id="my_profile-workingAndLearning" role="article">
+                <h3>My History</h3>
+                <h5>My Study</h5>
+                <p>I have my BS. Computer degree with minor in Chemistry.</p>
+                <table>
+                    <tr>
+                        <th>Eduication</th>
+                        <th>School</th>
+                    </tr>
+                    <tr>
+                        <td>Life science BS. - 1 year</td>
+                        <td>HKU Space</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry BS. - 1 year</td>
+                        <td>HKU</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry BS. - 1 year</td>
+                        <td>UNCC</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science BS. - 2 years</td>
+                        <td>UNCC</td>
+                    </tr>
+                </table>
+                <h5>My Work</h5>
+                <p>I start my career in The Hartford company as a programmer.</p>
+                <table>
+                    <tr>
+                        <th>Dates</th>
+                        <th>Works</th>
+                    </tr>
+                    <tr>
+                        <td>10-2017</td>
+                        <td>Junior Developer</td>
+                    </tr>
+                    <tr>
+                        <td>04-2020</td>
+                        <td>Developer</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="my_project" id="my_profile-participation" role="article">
+                <h3>Project</h3>
+                <p>I do some project related to spring boot and JDBC as backend development and few nodejs projects.</p>
+                <p>The Restful web service is my biggest spring project. This project has normal CRUD with JDBC and spring security. Also, i take a advantage of using AWS and json web token.</p>
+                <p>The Github repo - <a href="https://github.com/IsaacKwok4Code/restful_web_services_spring_boot">restful_web_services_spring_boot</a>.</p>
+                <p>I do some project related to React and Angular front development.</p>
+                <p>This is a React first learning application. it has simple single page app with React state.</p>
+                <p>The Github repo - <a href="https://github.com/IsaacKwok4Code/monsters-rolodex">monsters-rolodex</a>.</p>
+            </div>
+
+            <div class="benefits" id="my_profile-benefits" role="article">
+                <h3>My Professional</h3>
+                <ul>
+                    <li>SQL - Oracle / mySQL</li>
+                    <li>Javascript - ES6</li>
+                    <li>Typescript</li>
+                    <li>HTML 5 & CSS 3</li>
+                    <li>Spring boot with security, JPA, JDBC, hibernate, hateoas, thymeleaf</li>
+                    <li>bootstrap 3 & 4</li>
+                    <li>React</li>
+                    <li>Angular 1 & 2</li>
+                </ul>
+            </div>
+
+            <footer>
+                <h3>Contact</h3>
+                <p>Isaac4learning@gmail.com</p>
+            </footer>
+
+        </div>
+
+        <aside class="sidebar" role="complementary">
+            <div class="wrapper"></div>
+        </aside>
     </body>
 </html>
